@@ -1,0 +1,62 @@
+<!-- 
+ 2) What is the difference between colspan and rowspan in tables? Provide examples?
+ -> colspan : The colspan attribute defines the number of columns a table cell should span.
+            : colspan is used to merge 2 or more cells horizontally. 
+ -> rowspan : The rowspan attribute specifies the number of rows a cell should span.
+            : rowspan is used to merge 2 or more cells vertically.
+ 
+Ex: *colspan : <!DOCTYPE html>
+                 <html>
+                 <head>
+                     <meta charset='utf-8'>
+                     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+                     <title>Page Title</title>
+                     <meta name='viewport' content='width=device-width, initial-scale=1'>
+                     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+                     <script src='main.js'></script>
+                 </head>
+                 <body>
+                     <div style="width: 50%; height: auto; margin: auto; margin-top: 5%;">
+                         <table align="center" border="1" width="100%">
+                             <tr>
+                                 <th>Email</th>
+                                 <td><input type="text" placeholder="Email" required /></td>
+                             </tr>
+                             <tr>
+                                 <th>password</th>
+                                 <td><input type="address" placeholder="password" required /></td>
+                             </tr>
+                             <tr>
+                                 <td colspan="2" align="center"><input type="submit" value="login">
+                                 <a href="">Forget Password ?</a>
+                                 </td>
+                             </tr>
+                         </table>
+                         </div>
+                 </body>
+                 </html>
+
+    *rowspan :<!DOCTYPE html>
+                <html>
+                <head>
+                    <meta charset='utf-8'>
+                    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+                    <title>Page Title</title>
+                    <meta name='viewport' content='width=device-width, initial-scale=1'>
+                    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+                    <script src='main.js'></script>
+                </head>
+                <body>
+                    <div style="width: 40%; height: auto; margin: auto; margin-top: 5%;">
+                        <table align="center" width="100%" border="1">
+                            <tr>
+                              <th rowspan="2">list of game</th>
+                              <td>1. GTA 5</td>
+                            </tr>
+                            <tr>
+                              <td>2. Car Simulator</td>
+                            </tr>
+                </body>
+                </html>
+ 
+ -->
