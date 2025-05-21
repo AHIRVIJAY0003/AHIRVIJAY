@@ -1,0 +1,64 @@
+<!-- Create a audio video Tags -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        canvas
+        {
+            width: 250px;
+            height: 250px;
+            border: solid 1px;
+            background-color: burlywood;
+            border-radius: 30px 0 30px 0;
+            margin-left: 30%;
+        }
+        svg
+        {
+            margin-left: 35%;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 50%; height: auto; margin: auto; margin-top: 0; padding: 25px;">
+      <summary align="center">LIKE,SHARE,COMMENT</summary>
+      <p align="center">
+        <video controls width="500" height="300" loop="true" muted>
+        <source src="" type="video/mp4">
+        </video>
+      </p>
+    </div>
+
+    <div style="width: 50%; height: auto; margin: auto; margin-top: 0%; padding: 25px;"></div>
+     <summary align="center">Play And Download</summary>
+      <p align="center">
+        <audio controls>
+            <source src="" type="audio/mp3">
+        </audio>
+        <br><br>
+        <audio controls>
+            <source src="" type="audio/mp3">
+        </audio>
+        <br><br>
+        <audio controls>
+            <source src="" type="audio/mp3">
+        </audio>
+
+        <div style="width: 50%; height: auto; margin: auto; margin-top: 5%;">
+            <p align="center">RECTANGLE</p>
+            <canvas id="rectangle"></canvas>
+        </div>
+
+        <div style="width: 50%; height: auto; margin: auto; margin-top: 5%;">
+            <p align="center">SVG CIRCLE</p>
+           <svg>
+              <circle cx="100" cy="50" r="50" stroke="4"></circle>
+           </svg>
+        </div>
+</body>
+</html>
