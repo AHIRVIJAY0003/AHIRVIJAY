@@ -1,0 +1,29 @@
+Advanced Bootstrap Components
+Q1. Explain How Modal and Carousel Work In Bootstrap ?
+=>  Modal Work 
+	- You create a button or link with data-bs-toggle="modal" and data-bs-target="#yourModalID".
+	- You define a modal structure somewhere in the HTML with a matching id.
+	-Bootstrap uses JavaScript to show and hide the modal smoothly.
+
+=> Carousel Work
+	- You wrap your slides in a div.carousel.
+	- You use inner items (.carousel-item) to hold each slide.
+	-Add controls (next/prev buttons) and indicators if needed.
+	- Bootstrap uses JavaScript to cycle through slides automatically or manually.
+
+Q2. Describe the purpose of utility classes in Bootstrap and give Example.
+=> Utility classes in Bootstrap are predefined CSS helper classes that allow you to apply specific styles directly in your HTML elements without writing custom CSS.
+They are used to quickly control layout, spacing, colors, alignment, visibility, and more — saving time and code.
+Example:	
+<div class="bg-primary text-white p-4 text-center rounded">
+  This box has utility classes for background, text, padding, alignment, and rounded corners.
+</div>.
+
+Q3. Describe the importance of customizing bootstrap variable for unique elements.
+=>	Bootstrap comes with a powerful Sass-based theming system that uses CSS variables and Sass variables to define styles like colors, fonts, spacing, breakpoints, etc. Customizing these variables allows you to create a unique, consistent, and branded design without rewriting Bootstrap's entire CSS.
+
+-Clean & Maintainable Code
+-Better Responsive Control
+-Quick Theme Switching
+-Component-Level Customization
+

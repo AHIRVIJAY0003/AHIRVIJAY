@@ -1,0 +1,50 @@
+BootStrap Assignment
+Q1. What is Bootatrap, and why is it helpfull for website design ?
+=>	Bootstrap is a free open source for frontende development. It simplifies creting responsive and mobile-freindly website pre designerd HTML, CSS, Javascript, Components. this fremework stream line the development process, Enabeling faster and more consistent website design.
+
+Why is it Helpfull.
+ 1. Saves Time
+Bootstrap comes with pre-designed components like buttons, forms, cards, modals, and navbars.
+You don’t need to design everything from scratch — just use the built-in classes.
+2. Responsive Design
+Websites made with Bootstrap automatically adjust to different screen sizes (mobile, tablet, desktop).
+You don’t need to write complex media queries — Bootstrap handles it with its grid system.
+ 3. Professional Look
+Bootstrap provides a clean, modern, and consistent design.
+Even with basic knowledge, you can make websites that look professional.
+4. Cross-Browser Compatibility
+Works well on all major browsers (Chrome, Firefox, Safari, Edge).
+Saves you time testing and fixing layout issues.
+5. Built-in JavaScript Plugins
+Includes ready-made JS features like:
+Carousels (sliders)
+Modals (popup boxes)
+Dropdown menus
+Alerts and collapsible sections
+
+Q3.List and Explain at least three bootstrap components.
+=> 1. Carousel.
+		The Carousel component in Bootstrap is a slideshow feature that cycles through elements, like images or text, allowing users to navigate through them using indicators, controls, or automatically with timed intervals.
+
+Key Components
+*.carousel
+	-Base class for carousel container
+*.carousel-inner		
+	-Wraps the slides
+*.carousel-item 
+	-Individual slide
+*.carousel-indicators	
+	-Navigation dots below the carousel
+*.carousel-control-prev / .carousel-control-next	
+	-Previous/Next navigation buttons
+
+Customize Carousel.
+Autoplay: Use data-bs-ride="carousel" to auto-start the slideshow.
+Interval: Control time between slides using data-bs-interval="3000" (in ms).
+Pause on hover: data-bs-pause="hover" (default).
+Fade effect: Add .carousel-fade to .carousel for smooth transitions.
+
+Advantage:
+Easy to implement with minimal code
+Responsive and touch-enabled
+Customizable transitions and indicators
