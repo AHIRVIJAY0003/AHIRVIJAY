@@ -1,0 +1,53 @@
+<!-- Routing in React (React Router)
+Question 1: What is React Router? How does it handle routing in single-page applications?
+Ans : React Router is a popular routing library for React that allows developers to create navigation between different 
+      views or components in a Single Page Application (SPA).
+• In an SPA, there’s usually only one HTML file (index.html), and React dynamically updates the view without refreshing 
+  the entire page.
+• Normally, changing a URL would request a new HTML file from the server, but React Router intercepts those requests and 
+  instead renders the correct component based on the URL path.How it works in SPA:
+1. React Router listens to URL changes in the browser (using the History API).
+2. Instead of refreshing the page, it loads the corresponding React component mapped to that route.
+3. This gives the illusion of navigating between pages, but everything is handled on the client side, keeping the app 
+   fast and seamless.
+
+Question 2: Difference between BrowserRouter, Route, Link, and Switch.
+Ans : Here’s a breakdown of the main components:
+1. BrowserRouter
+• A wrapper component that enables routing in your app.
+• Uses the browser’s History API (pushState, popState) to keep the UI in sync with the URL.
+• Typically wraps the entire application.
+import { BrowserRouter } from "react-router-dom";
+function App() {
+ return (
+ <BrowserRouter>
+ <MyRoutes />
+ </BrowserRouter>
+ );
+}
+ Defines a mapping between a URL path and a component.
+ When the URL matches the path, the component inside the Route
+is rendered.
+import { Route } from "react-router-dom";
+<Route path="/about" element={<About />} />
+<Route path="/contact" element={<Contact />} />
+. Link
+• A replacement for the normal <a> tag in React Router.
+• Prevents full page reloads.
+• Updates the URL and tells React Router to render the correct 
+component.
+import { Link } from "react-router-dom";
+<Link to="/about">About Us</Link>
+<Link to="/contact">Contact</Link>
+Switch (React Router v5) / Routes (React Router v6)
+• In v5, Switch renders the first matching route among its 
+children.
+• In v6, Switch is replaced by Routes, which works similarly but 
+with a slightly different API.
+v5 Example (using Switch):
+import { Switch, Route } from "react-router-dom";
+<Switch>
+ <Route path="/about" component={About} />
+ <Route path="/contact" component={Contact} />
+ <Route path="/" component={Home} />
+</Switch> -->
